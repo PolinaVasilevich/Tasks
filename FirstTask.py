@@ -1,5 +1,7 @@
+import math
+
+
 def diagonal(a, b):
-    import math
     return round(math.sqrt((a ** 2 + b ** 2)), 2)
 
 
@@ -11,7 +13,8 @@ def perimeter(a, b):
     return a + b
 
 
-width = int(input('Ширина прямоугольника = '))
-length = int(input('Длина прямоугольника = '))
-print('Диагональ = {} \nПлощадь  = {} \nПериметр = {}'.format(diagonal(width, length),
-      area(width, length), perimeter(width, length)))
+if __name__ == '__main__':
+    width = int(input('Width = '))
+    length = int(input('Length = '))
+    print("Diagonal = {} \nArea  = {} \nPerimeter = {}".format(diagonal(width, length),
+                                                               area(width, length), perimeter(width, length)))
