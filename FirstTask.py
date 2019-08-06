@@ -20,7 +20,4 @@ def dictionary(a, b):
 if __name__ == '__main__':
     width = int(input('Width = '))
     length = int(input('Length = '))
-    print("Diagonal = {} \nArea  = {} \nPerimeter = {} \nDictionary = {}".format(diagonal(width, length),
-                                                                                 area(width, length),
-                                                                                 perimeter(width, length),
-                                                                                 dictionary(width, length)))
+    print(dictionary(width, length))
