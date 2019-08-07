@@ -18,4 +18,4 @@ def dictionary(a, b):
 
 
 if __name__ == '__main__':
-    print('Result:', dictionary(a=13, b=15))
+    print('Result:', dictionary(a=13, b=17))
