@@ -20,4 +20,4 @@ def dictionary(a, b):
 if __name__ == '__main__':
     width = int(input('Width = '))
     length = int(input('Length = '))
-    print(dictionary(width, length))
+    print('Result:', dictionary(width, length))
