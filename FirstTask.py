@@ -18,6 +18,4 @@ def dictionary(a, b):
 
 
 if __name__ == '__main__':
-    width = int(input('Width = '))
-    length = int(input('Length = '))
-    print('Result:', dictionary(width, length))
+    print('Result:', dictionary(a=13, b=15))
